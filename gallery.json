@@ -1,7 +1,7 @@
 {"name":"Silas",
   "task":[
     {
-      "config":"0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/silasq/QuantumultX/main/pic/52pojie.jpeg, enabled=false",
+      "config":"0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/silasq/QuantumultX/main/pic/52pojie.png, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/52pojie.qxrewrite,tag=吾爱破解_获取Cookie"
     }
   ]
