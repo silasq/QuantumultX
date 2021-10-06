@@ -48,6 +48,10 @@
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, tag=哈啰出行, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/hellobike.qxrewrite,tag=哈啰出行_获取Cookie"
     },
+    {
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js, tag=海底捞, enabled=false",
+      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/hdl.qxrewrite,tag=海底捞_获取Cookie"
+    },
  
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, enabled=false"},
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js, tag=中国移动, enabled=false"},
@@ -68,7 +72,7 @@
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js, tag=分期乐, enabled=false"},
 
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/gdoil/gdoil.js, tag=加油广东, enabled=false"},
-    {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js, tag=海底捞, enabled=false"},
+
     
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/hycan/hycan.js, tag=HYCAN合创, enabled=false"},
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/maomicd/maomicd.js, tag=猫咪音乐, enabled=false"},

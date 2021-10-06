@@ -1,0 +1,5 @@
+# 海底捞
+#3. 打开 APP[海底捞](https://apps.apple.com/cn/app/%E6%B5%B7%E5%BA%95%E6%8D%9E/id553115181) 然后手动签到 1 次, 系统提示: `获取Cookie: 成功`
+
+^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js
+hostname = activity-1.m.duiba.com.cn
