@@ -1,0 +1,9 @@
+# 哈啰出行
+# 3. 打开 APP 进入签到页面:  `我的` > `有哈有车`
+# 4. 系统提示: `首次写入 哈啰出行 Token 成功 🎉`
+# 5. 把获取 Cookie 的脚本注释掉
+# 6. 运行一次脚本, 如果提示重复签到, 那就算成功了!
+
+^https:\/\/gameapi\.hellobike\.com\/api url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+
+hostname = gameapi.hellobike.com
