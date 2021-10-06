@@ -57,7 +57,7 @@
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mgtv.qxrewrite,tag=芒果TV_获取Cookie"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, enabled=false",
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐_失效, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/neteasemusic.qxrewrite,tag=网易云音乐_获取Cookie"
     },
  
@@ -84,7 +84,6 @@
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js, tag=米读签到, enabled=false"},
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js, tag=米读阅读时长, enabled=false"},
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/mihoyo/mihoyo.js, tag=米游社, enabled=false"},
-
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js, tag=网易新闻, enabled=false"},
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.js, tag=蔚来, enabled=false"},
     {"config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js, tag=有道云笔记, enabled=false"},
