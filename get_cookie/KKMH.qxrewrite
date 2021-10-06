@@ -1,0 +1,6 @@
+# 爱奇艺
+# 打开快看漫画App后(AppStore中国区)，点击"我的", 如通知成功获取cookie, 则可以使用此签到脚本.
+
+^https:\/\/api\.kkmh\.com\/v\d\/passport\/user url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+
+hostname = api.kkmh.com
