@@ -33,7 +33,7 @@
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/KKMH.qxrewrite,tag=快看漫画_获取Cookie"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信, enabled=false",
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信_失效, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/10000.qxrewrite,tag=中国电信_获取Cookie"
     },
  
