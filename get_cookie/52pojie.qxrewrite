@@ -1,7 +1,8 @@
-# 中国联通App每日签到与抽奖
-# [task_local]
-# 20 0 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.min.js, tag=联通_签到与抽奖, enabled=true
+# 吾爱破解
+# 手动登录 https://www.52pojie.cn/home.php 如通知成功获取cookie, 则可以使用此签到脚本.
+# 获取Cookie后, 请将Cookie脚本禁用并移除主机名, 以免产生不必要的MITM.
+# 脚本将在每天上午9点执行, 您可以修改执行时间.
 
-^https?:\/\/m\.client\.10010\.com\/dailylottery\/static\/(integral|doubleball)\/firstpage url script-request-header https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.min.js
+https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
 
 hostname = www.52pojie.cn
