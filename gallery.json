@@ -73,14 +73,20 @@
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/qqmusic.qxrewrite,tag=QQ音乐_获取Cookie"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js, tag=美团外卖, enabled=false",
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js, tag=美团外卖_失效, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/wmmeituan.qxrewrite,tag=美团外卖_获取Cookie"
     },
-
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, enabled=false",
-      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
+      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/10010.qxrewrite,tag=中国联通_获取Cookie"
     },
+
+
+
+
+
+
+
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js, tag=中国移动, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
