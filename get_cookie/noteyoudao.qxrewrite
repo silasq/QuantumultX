@@ -1,0 +1,5 @@
+# 有道云笔记
+
+^https:\/\/api\.kkmh\.com\/v\d\/passport\/user url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js
+
+hostname = api.kkmh.com
