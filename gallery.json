@@ -80,7 +80,10 @@
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/10010.qxrewrite,tag=中国联通_获取Cookie"
     },
-
+    {
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, tag=苏宁易购, enabled=false",
+      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/suning.qxrewrite,tag=苏宁易购_获取Cookie"
+    },
 
 
 
@@ -205,10 +208,6 @@
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js, tag=什么值得买, enabled=false",
-      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
-    },
-    {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, tag=苏宁易购, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
     },
     {
