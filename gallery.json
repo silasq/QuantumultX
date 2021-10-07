@@ -69,10 +69,13 @@
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/qunar.qxrewrite,tag=去哪儿_获取Cookie"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐, enabled=false",
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐_失效, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/qqmusic.qxrewrite,tag=QQ音乐_获取Cookie"
     },
-
+    {
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js, tag=美团外卖, enabled=false",
+      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/wmmeituan.qxrewrite,tag=美团外卖_获取Cookie"
+    },
 
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, enabled=false",
@@ -216,10 +219,6 @@
     },
     {
       "config":"10 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js, tag=万达电影, enabled=false",
-      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
-    },
-    {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js, tag=美团外卖, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
     },
     {
