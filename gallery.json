@@ -84,7 +84,10 @@
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, tag=苏宁易购, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/suning.qxrewrite,tag=苏宁易购_获取Cookie"
     },
-
+    {
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js, tag=喜马拉雅, enabled=false",
+      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/ximalaya.qxrewrite,tag=喜马拉雅_获取Cookie"
+    },
 
 
 
@@ -232,10 +235,6 @@
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js, tag=网易考拉, enabled=false",
-      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
-    },
-    {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js, tag=喜马拉雅, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
     },
     {

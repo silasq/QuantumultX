@@ -1,0 +1,7 @@
+# 喜马拉雅
+# 3. 打开 APP, 访问下右下角`账号`
+# 4. 系统提示: `获取Cookie: 成功` & `获取Token: 成功`（如果不提示获取成功, 尝试杀进程再进`账号`）
+
+^https?:\/\/.*\/mobile\-user\/(v1\/)?homePage\/.* url https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
+
+hostname = 113.96.156.178, *.ximalaya.com
