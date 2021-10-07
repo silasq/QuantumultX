@@ -77,10 +77,6 @@
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/wmmeituan.qxrewrite,tag=美团外卖_获取Cookie"
     },
     {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, enabled=false",
-      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/10010.qxrewrite,tag=中国联通_获取Cookie"
-    },
-    {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js, tag=苏宁易购_失效, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/suning.qxrewrite,tag=苏宁易购_获取Cookie"
     },
@@ -96,15 +92,6 @@
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/videoqq.qxrewrite,tag=腾讯视频_获取Cookie"
     },
-    {
-      "config":"10 00 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=领取吃货豆, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/elem.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.qxrewrite,tag=饿了么_获取Cookie"
-    },
-    {
-      "config":"00 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js, tag=领取会员任务, img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/elem.png, enabled=true",
-      "addons":"https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.qxrewrite,tag=饿了么_获取Cookie"
-    },
-
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js, tag=中国移动, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
