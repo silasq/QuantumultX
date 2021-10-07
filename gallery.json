@@ -68,7 +68,10 @@
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js, tag=去哪儿, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/qunar.qxrewrite,tag=去哪儿_获取Cookie"
     },
-
+    {
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐, enabled=false",
+      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/qqmusic.qxrewrite,tag=QQ音乐_获取Cookie"
+    },
 
 
     {
@@ -177,10 +180,6 @@
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js, tag=全民K歌, enabled=false",
-      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
-    },
-    {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/qqmusic/qqmusic.js, tag=QQ音乐, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
     },
     {
