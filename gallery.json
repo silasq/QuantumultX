@@ -92,7 +92,10 @@
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=WPS, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/wps.qxrewrite,tag=WPS_获取Cookie"
     },
-
+    {
+      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, enabled=false",
+      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/videoqq.qxrewrite,tag=腾讯视频_获取Cookie"
+    },
 
 
 
@@ -222,10 +225,6 @@
     },
     {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/quanx/v2ex.js, tag=V2EX, enabled=false",
-      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
-    },
-    {
-      "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
     },
     {
