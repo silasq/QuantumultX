@@ -1,0 +1,5 @@
+# 小米有品
+# 获取方式:进入签到页面获取，APP :个人中心->右上角签到
+^https:\/\/m\.xiaomiyoupin\.com\/api\/auth\/login\/isloggedin url script-request-header https://raw.githubusercontent.com/dompling/Script/master/xiaomiyp/xiaomiyp.cookie.js
+
+hostname = m.xiaomiyoupin.com

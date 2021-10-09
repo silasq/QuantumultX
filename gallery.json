@@ -93,6 +93,11 @@
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/videoqq.qxrewrite,tag=腾讯视频_获取Cookie"
     },
     {
+      "config":"1 0 * * * https://raw.githubusercontent.com/dompling/Script/master/xiaomiyp/xiaomiyp.js, tag=小米有品, enabled=false",
+      "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/xiaomiyp.qxrewrite,tag=小米有品_获取Cookie"
+    },
+
+    {
       "config":"1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js, tag=中国移动, enabled=false",
       "addons":"https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/mcdd.qxrewrite,tag=叮咚买菜_获取Cookie"
     },
