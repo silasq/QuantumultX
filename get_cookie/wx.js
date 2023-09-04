@@ -16,7 +16,7 @@ http-request ^https:\/\/crm.scpgroup.com.cn\/yinli-minapp\/api\/v1\/square\/plaz
 [MITM]
 hostname = crm.scpgroup.com.cn
 ********************************/
-
+$notify(1, 1, 1);
 const req = {};
 const token = $request.headers['token'];
 
