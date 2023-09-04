@@ -30,6 +30,7 @@ if ($iCloud.writeFile(writeUint8Array, filePath)) {
 }
 $done();
 
+/*
 $notify(token, token, token);
+*/
 
-$done(req);
