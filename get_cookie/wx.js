@@ -16,18 +16,33 @@ http-request ^https:\/\/crm.scpgroup.com.cn\/yinli-minapp\/api\/v1\/square\/plaz
 [MITM]
 hostname = crm.scpgroup.com.cn
 ********************************/
-const token = $request.headers['token'];
-
 let filePath = "scpgroup.txt";
 
-let encoder = new TextEncoder();
-let writeUint8Array = encoder.encode(token);
+let token_new = $request.headers['token'];
 
-if ($iCloud.writeFile(writeUint8Array, filePath)) {
-    console.log("OK");
-} else {
+let readUint8Array = $iCloud.readFile(filePath);
+if (readUint8Array === undefined) {
     console.log("NO");
+} else {
+    let textDecoder = new TextDecoder();
+    let token_old = textDecoder.decode(readUint8Array);
+    console.log(token_old);
 }
+
+if (token_new == token_old) {
+    console.log("token exist");
+} else {
+    let encoder = new TextEncoder();
+    let writeUint8Array = encoder.encode(token_new);
+    
+    if ($iCloud.writeFile(writeUint8Array, filePath)) {
+        console.log("token refresh done");
+    } else {
+        console.log("token refresh failed");
+    }
+}
+
+
 $done();
 
 /*
