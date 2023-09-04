@@ -20,6 +20,6 @@ hostname = crm.scpgroup.com.cn
 const req = {};
 const token = $request.headers['token'];
 
-$notify(token, token, token, Opts(rawopts));
+$notify(token, token, token);
 
 $done(req);
