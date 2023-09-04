@@ -19,13 +19,14 @@ hostname = crm.scpgroup.com.cn
 let filePath = "scpgroup.txt";
 
 let token_new = $request.headers['token'];
+let token_old = ''
 
 let readUint8Array = $iCloud.readFile(filePath);
 if (readUint8Array === undefined) {
     console.log("NO");
 } else {
     let textDecoder = new TextDecoder();
-    let token_old = textDecoder.decode(readUint8Array);
+    token_old = textDecoder.decode(readUint8Array);
     console.log(token_old);
 }
 
