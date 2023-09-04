@@ -16,9 +16,19 @@ http-request ^https:\/\/crm.scpgroup.com.cn\/yinli-minapp\/api\/v1\/square\/plaz
 [MITM]
 hostname = crm.scpgroup.com.cn
 ********************************/
-$notify(1, 1, 1);
-const req = {};
 const token = $request.headers['token'];
+
+let filePath = "scpgroup.txt";
+
+let encoder = new TextEncoder();
+let writeUint8Array = encoder.encode(token);
+
+if ($iCloud.writeFile(writeUint8Array, filePath)) {
+    console.log("OK");
+} else {
+    console.log("NO");
+}
+$done();
 
 $notify(token, token, token);
 
