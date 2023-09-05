@@ -11,10 +11,10 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-request ^https:\/\/crm.scpgroup.com.cn\/yinli-minapp\/api\/v1\/square\/plazaInfo.* script-path=https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/wx.qxrewrite
+http-request ^https:\/\/api.51nwds.com\/api-mall\/v1\/mall-store\/search script-path=https://raw.githubusercontent.com/silasq/QuantumultX/main/get_cookie/nwds.js
 
 [MITM]
-hostname = crm.scpgroup.com.cn
+hostname = api.51nwds.com
 ********************************/
 let filePath = "nwds.txt";
 
