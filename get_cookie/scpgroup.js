@@ -23,23 +23,23 @@ let token_old = ''
 
 let readUint8Array = $iCloud.readFile(filePath);
 if (readUint8Array === undefined) {
-    console.log("NO");
+    console.log("scpgroup: NO");
 } else {
     let textDecoder = new TextDecoder();
     token_old = textDecoder.decode(readUint8Array);
 }
 
 if (token_new == token_old) {
-    console.log("token exist");
+    console.log("scpgroup: token exist");
 } else {
     let encoder = new TextEncoder();
     let writeUint8Array = encoder.encode(token_new);
     
     if ($iCloud.writeFile(writeUint8Array, filePath)) {
-        console.log("token refresh done");
+        console.log("scpgroup: token refresh done");
         console.log(token_new);
     } else {
-        console.log("token refresh failed");
+        console.log("scpgroup :token refresh failed");
     }
 }
 
