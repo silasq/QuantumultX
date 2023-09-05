@@ -27,7 +27,6 @@ if (readUint8Array === undefined) {
 } else {
     let textDecoder = new TextDecoder();
     token_old = textDecoder.decode(readUint8Array);
-    console.log(token_old);
 }
 
 if (token_new == token_old) {
@@ -38,6 +37,7 @@ if (token_new == token_old) {
     
     if ($iCloud.writeFile(writeUint8Array, filePath)) {
         console.log("token refresh done");
+        console.log(token_new);
     } else {
         console.log("token refresh failed");
     }
