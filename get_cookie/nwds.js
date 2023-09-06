@@ -16,37 +16,28 @@ http-request ^https:\/\/api.51nwds.com\/api-mall\/v1\/mall-store\/search script-
 [MITM]
 hostname = api.51nwds.com
 ********************************/
-let filePath = "nwds.txt";
-
 let token_new = $request.headers['Authorization'].replace('bearer ', '');
-let token_old = ''
 
-let readUint8Array = $iCloud.readFile(filePath);
-if (readUint8Array === undefined) {
-    console.log("nwds: NO");
-} else {
-    let textDecoder = new TextDecoder();
-    token_old = textDecoder.decode(readUint8Array);
-}
+const url = "https://api.silasq.net:4433/nwds";
+const method = "POST";
+const headers = {};
+const data = {"Authorization": token_new};
 
-if (token_new == token_old) {
-    console.log("nwds: token exist");
-} else {
-    let encoder = new TextEncoder();
-    let writeUint8Array = encoder.encode(token_new);
-    
-    if ($iCloud.writeFile(writeUint8Array, filePath)) {
-        console.log("nwds: token refresh done");
-        console.log(token_new);
-    } else {
-        console.log("nwds: token refresh failed");
-    }
-}
+const myRequest = {
+    url: url,
+    method: method, // Optional, default GET.
+    headers: headers, // Optional.
+    body: JSON.stringify(data) // Optional.
+};
 
-
-$done();
-
-/*
-$notify(token, token, token);
-*/
+$task.fetch(myRequest).then(response => {
+    // response.statusCode, response.headers, response.body
+    console.log(response.body);
+    $notify("Title", "Subtitle", response.body); // Success!
+    $done();
+}, reason => {
+    // reason.error
+    $notify("Title", "Subtitle", reason.error); // Error!
+    $done();
+});
 
