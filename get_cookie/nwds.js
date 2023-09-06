@@ -20,15 +20,18 @@ let token_new = $request.headers['Authorization'].replace('bearer ', '');
 
 const url = "https://api.silasq.net:4433/nwds";
 const method = "POST";
-const headers = {};
+const headers = {
+    'accept': 'application/json',
+    'Content-Type': 'application/json'
+};
 const data = {"Authorization": token_new};
 
 const myRequest = {
     url: url,
     method: method, // Optional, default GET.
     headers: headers, // Optional.
-    //body: JSON.stringify(data) // Optional.
-    body: data
+    body: JSON.stringify(data) // Optional.
+    //body: data
 };
 
 $task.fetch(myRequest).then(response => {
